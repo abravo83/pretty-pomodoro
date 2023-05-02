@@ -24,7 +24,7 @@ function startPomodoro() {
     } else {
       clearInterval(pomodoroInterval);
     }
-  }, 1000)
+  }, 1000 * 60 * 25)
 }
 
 function resetPomodoro() {
